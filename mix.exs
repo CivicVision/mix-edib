@@ -3,14 +3,14 @@ Code.eval_file "tasks/readme.exs"
 defmodule EDIB.Mixfile do
   use Mix.Project
 
-  @version "0.10.0"
+  @version "0.10.1"
 
   def project do
     [
       app:           :edib,
       name:          "edib",
       version:       @version,
-      elixir:        "~> 1.4",
+      elixir:        "~> 1.3",
       deps:          deps(),
       description:   description(),
       package:       package(),
